@@ -30,6 +30,7 @@ $space_class = '';
 				<a class="sr-only" href="#primary" title="<?php esc_attr_e( 'Skip to content', 'arcade-basic' ); ?>"><?php _e( 'Skip to content', 'arcade-basic' ); ?></a>
 
 				<div class="navbar-header">
+				<a href="#home" class="logo"><?php bloginfo( 'name' ); ?></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
@@ -83,4 +84,4 @@ $space_class = '';
 
 		</header>
 
-		<main>
+		
